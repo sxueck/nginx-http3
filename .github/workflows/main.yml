@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-container-and-deploy:
-    runs-on: hk-layerstack-01
+    runs-on: ubuntu-latest
     if: github.event_name == 'push'
     strategy:
       matrix:
